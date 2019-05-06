@@ -1,4 +1,4 @@
-
+<h1>My edit</h1>
 <%= form_for @article do |f| %>
   <%= f.label 'Article Title' %><br>
   <%= f.text_field :title %><br>
@@ -8,6 +8,6 @@
  
   <%= f.submit "Submit Article" %>
 <% end %>
-<p>My edit</p>
+
 <%= link_to "My edit", article_path(@article) %>
 
