@@ -1,8 +1,10 @@
-<%= form_for @article do |a| %>
-<%= a.label :title %>
-<%= a.text_field :title %>
-<%= a.label :description %>
-<%= a.text_field :description %>
-<%= a.submit "Edit Article" %>
+<%= form_for @article do |f| %>
+  <%= f.label 'Article Title' %><br>
+  <%= f.text_field :title %><br>
+ 
+  <%= f.label 'Article Description' %><br>
+  <%= f.text_area :description %><br>
+ 
+  <%= f.submit "Submit Article" %>
 <% end %>
 
