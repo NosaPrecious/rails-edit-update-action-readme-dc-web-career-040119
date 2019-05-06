@@ -187,3 +187,5 @@ Processing by ArticlesController#new as HTML
   Rendering articles/new.html.erb within layouts/application
   Rendered articles/new.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started POST "/articles" for 127.0.0.1 at 2019-05-06 21:13:42 +0000
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
